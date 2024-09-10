@@ -8,7 +8,7 @@ This is the offical implementation of the paper entitled “Mutual Neighborhood-
 
 # Main Results
 
-<div align=center><img src="figures/results.jpg" width = "100%"/></div>
+<div align=center><img src="figures/results.png.jpg" width = "100%"/></div>
 
 # Dependency
 
@@ -23,6 +23,7 @@ This is the offical implementation of the paper entitled “Mutual Neighborhood-
 # Usage
 
 ##Training Commands
+
 The config files are in `config/`, just run the following command:
 ```shell
 export CUDA_VISIBLE_DEVICES=0,1,2,3 # use the first 4 GPUs
@@ -33,14 +34,7 @@ or
 export CUDA_VISIBLE_DEVICES=0,1,2,3 # use the first 4 GPUs
 python -m torch.distributed.launch --nproc_per_node=4 --master_port=17672 main.py config/cifar10_r18_propos.yml
 ```
-
-We can also enable the WANDB to visualize the training!
-
-Set the `wandb` parameters to true, and login to wandb.ai:
-```shell
-wandb login xxx
-```
 ## Visualization
-<div align=center><img src="figures/tsne.png" width = "100%"/></div>
+<div align=center><img src="figure/tsne.png.jpg" width = "100%"/></div>
 
 # If you find this is helpful for you, please star this hard working.
