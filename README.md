@@ -8,7 +8,7 @@ This is the offical implementation of the paper entitled “Mutual Neighborhood-
 
 # Main Results
 
-<div align=center><img src="figures/results.png.jpg" width = "100%"/></div>
+<div align=center><img src="figure/results.jpg" width = "100%"/></div>
 
 # Dependency
 
